@@ -1,0 +1,328 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'fs-extra' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose node symlink /usr/bin/node
+5 verbose read json /home/Vankaya/new/package.json
+6 warn package.json JustClk.com@0.0.1 No README.md file found!
+7 verbose read json /home/Vankaya/new/node_modules/azure/package.json
+8 verbose read json /home/Vankaya/new/node_modules/read-dir-files/package.json
+9 verbose read json /home/Vankaya/new/node_modules/device-detective/package.json
+10 verbose read json /home/Vankaya/new/node_modules/url/package.json
+11 verbose read json /home/Vankaya/new/node_modules/request/package.json
+12 verbose read json /home/Vankaya/new/node_modules/error-handler/package.json
+13 verbose read json /home/Vankaya/new/node_modules/qs/package.json
+14 verbose read json /home/Vankaya/new/node_modules/underscore/package.json
+15 verbose read json /home/Vankaya/new/node_modules/fs-tools/package.json
+16 verbose read json /home/Vankaya/new/node_modules/handlebars/package.json
+17 verbose read json /home/Vankaya/new/node_modules/formidable/package.json
+18 verbose read json /home/Vankaya/new/node_modules/buffet/package.json
+19 verbose from cache /home/Vankaya/new/package.json
+20 verbose readDependencies using package.json deps
+21 verbose cache add [ 'fs-extra@~0.9.1', null ]
+22 verbose cache add name=undefined spec="fs-extra@~0.9.1" args=["fs-extra@~0.9.1",null]
+23 verbose parsed url { pathname: 'fs-extra@~0.9.1',
+23 verbose parsed url   path: 'fs-extra@~0.9.1',
+23 verbose parsed url   href: 'fs-extra@~0.9.1' }
+24 verbose cache add name="fs-extra" spec="~0.9.1" args=["fs-extra","~0.9.1"]
+25 verbose parsed url { pathname: '~0.9.1', path: '~0.9.1', href: '~0.9.1' }
+26 verbose addNamed [ 'fs-extra', '~0.9.1' ]
+27 verbose addNamed [ null, '>=0.9.1- <0.10.0-' ]
+28 silly lockFile 85cb8434-fs-extra-0-9-1 fs-extra@~0.9.1
+29 verbose lock fs-extra@~0.9.1 /root/.npm/85cb8434-fs-extra-0-9-1.lock
+30 silly addNameRange { name: 'fs-extra', range: '>=0.9.1- <0.10.0-', hasData: false }
+31 verbose url raw fs-extra
+32 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra' ]
+33 verbose url resolved https://registry.npmjs.org/fs-extra
+34 info trying registry request attempt 1 at 06:51:04
+35 verbose etag "90I98FI6KC9PE7VSYK9EL10M4"
+36 http GET https://registry.npmjs.org/fs-extra
+37 http 304 https://registry.npmjs.org/fs-extra
+38 silly registry.get cb [ 304,
+38 silly registry.get   { date: 'Tue, 27 May 2014 06:50:09 GMT',
+38 silly registry.get     server: 'Apache',
+38 silly registry.get     via: '1.1 varnish',
+38 silly registry.get     'last-modified': 'Tue, 27 May 2014 06:50:10 GMT',
+38 silly registry.get     'cache-control': 'max-age=1',
+38 silly registry.get     etag: '"90I98FI6KC9PE7VSYK9EL10M4"',
+38 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+38 silly registry.get     'x-cache': 'MISS',
+38 silly registry.get     'x-cache-hits': '0',
+38 silly registry.get     'x-timer': 'S1401173409.996720,VS0,VE342',
+38 silly registry.get     vary: 'Accept',
+38 silly registry.get     'content-length': '0',
+38 silly registry.get     'keep-alive': 'timeout=10, max=50',
+38 silly registry.get     connection: 'Keep-Alive' } ]
+39 verbose etag fs-extra from cache
+40 silly addNameRange number 2 { name: 'fs-extra', range: '>=0.9.1- <0.10.0-', hasData: true }
+41 silly addNameRange versions [ 'fs-extra',
+41 silly addNameRange   [ '0.0.1',
+41 silly addNameRange     '0.0.11',
+41 silly addNameRange     '0.0.3',
+41 silly addNameRange     '0.0.4',
+41 silly addNameRange     '0.1.0',
+41 silly addNameRange     '0.1.1',
+41 silly addNameRange     '0.1.2',
+41 silly addNameRange     '0.1.3',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '0.2.1',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.3.2',
+41 silly addNameRange     '0.4.0',
+41 silly addNameRange     '0.5.0',
+41 silly addNameRange     '0.6.0',
+41 silly addNameRange     '0.6.1',
+41 silly addNameRange     '0.6.2',
+41 silly addNameRange     '0.6.3',
+41 silly addNameRange     '0.6.4',
+41 silly addNameRange     '0.7.0',
+41 silly addNameRange     '0.7.1',
+41 silly addNameRange     '0.8.0',
+41 silly addNameRange     '0.8.1',
+41 silly addNameRange     '0.9.0',
+41 silly addNameRange     '0.9.1' ] ]
+42 verbose addNamed [ 'fs-extra', '0.9.1' ]
+43 verbose addNamed [ '0.9.1', '0.9.1' ]
+44 silly lockFile 0b4774a8-fs-extra-0-9-1 fs-extra@0.9.1
+45 verbose lock fs-extra@0.9.1 /root/.npm/0b4774a8-fs-extra-0-9-1.lock
+46 verbose read json /root/.npm/fs-extra/0.9.1/package/package.json
+47 silly lockFile 0b4774a8-fs-extra-0-9-1 fs-extra@0.9.1
+48 silly lockFile 0b4774a8-fs-extra-0-9-1 fs-extra@0.9.1
+49 silly lockFile 85cb8434-fs-extra-0-9-1 fs-extra@~0.9.1
+50 silly lockFile 85cb8434-fs-extra-0-9-1 fs-extra@~0.9.1
+51 silly resolved [ { name: 'fs-extra',
+51 silly resolved     version: '0.9.1',
+51 silly resolved     description: 'fs-extra contains methods that aren\'t included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.',
+51 silly resolved     homepage: 'https://github.com/jprichardson/node-fs-extra',
+51 silly resolved     repository:
+51 silly resolved      { type: 'git',
+51 silly resolved        url: 'https://github.com/jprichardson/node-fs-extra' },
+51 silly resolved     keywords:
+51 silly resolved      [ 'fs',
+51 silly resolved        'file',
+51 silly resolved        'file system',
+51 silly resolved        'copy',
+51 silly resolved        'directory',
+51 silly resolved        'extra',
+51 silly resolved        'mkdirp',
+51 silly resolved        'mkdir',
+51 silly resolved        'mkdirs',
+51 silly resolved        'recursive',
+51 silly resolved        'json',
+51 silly resolved        'read',
+51 silly resolved        'write',
+51 silly resolved        'extra',
+51 silly resolved        'delete',
+51 silly resolved        'remove',
+51 silly resolved        'touch',
+51 silly resolved        'create',
+51 silly resolved        'text',
+51 silly resolved        'output',
+51 silly resolved        'move' ],
+51 silly resolved     author: { name: 'JP Richardson', email: 'jprichardson@gmail.com' },
+51 silly resolved     licenses: [ [Object] ],
+51 silly resolved     dependencies:
+51 silly resolved      { ncp: '^0.5.1',
+51 silly resolved        mkdirp: '^0.5.0',
+51 silly resolved        jsonfile: '~1.1.0',
+51 silly resolved        rimraf: '^2.2.8' },
+51 silly resolved     devDependencies:
+51 silly resolved      { mocha: '*',
+51 silly resolved        'path-extra': '0.0.x',
+51 silly resolved        testutil: '~0.5.0',
+51 silly resolved        userid: '~0.1.1' },
+51 silly resolved     main: './lib/index',
+51 silly resolved     scripts: { test: 'mocha test' },
+51 silly resolved     readme: 'Node.js: fs-extra\n=================\n\n[![build status](https://secure.travis-ci.org/jprichardson/node-fs-extra.png)](http://travis-ci.org/jprichardson/node-fs-extra)\n\nThis module adds a few extra file system methods that aren\'t included in the native `fs` module. It is a drop in replacement for `fs`.\n\n\n\nWhy?\n----\n\nI got tired of including `mkdirp`, `rimraf`, and `cp -r` in most of my projects. \n\n\n\n\nInstallation\n------------\n\n    npm install --save fs-extra\n\n\n\nUsage\n-----\n\n`fs-extra` is a drop in replacement for native `fs`. All methods in `fs` are unmodified and attached to `fs-extra`.\n\nYou don\'t ever need to include the original `fs` module again:\n\n```javascript\nvar fs = require(\'fs\') //this is no longer necessary\n```\n\nyou can now do this:\n\n```javascript\nvar fs = require(\'fs-extra\'); //var fs = require(\'fs\')\n```\n\nor if you prefer to make it clear that you\'re using `fs-extra` and not `fs`, you may want \nto do this:\n\n```javascript\n//var fs = require(\'fs\')\nvar fse = require(\'fs-extra\')\n```\n\nyou can also keep both, but it\'s redundant:\n\n```javascript\nvar fs = require(\'fs\')\nvar fse = require(\'fs-extra\')\n```\n\n\n\nMethods\n-------\n\n**NOTE:** You can still use the native Node.js methods. They are copied over to `fs-extra`.\n\n\n### copy(src, dest, [filter], callback)\n\nCopy a file or directory. The directory can have contents. Like `cp -r`.\n\nSync: `copySync()`\n\n\nExamples:\n\n```javascript\nvar fs = require(\'fs-extra\');\n\nfs.copy(\'/tmp/myfile\', \'/tmp/mynewfile\', function(err){\n  if (err) return console.error(err);\n  console.log("success!")\n}); //copies file\n\nfs.copy(\'/tmp/mydir\', \'/tmp/mynewdir\', function(err){\n  if (err) return console.error(err);\n  console.log("success!")\n}); //copies directory, even if it has subdirectories or files\n```\n\n\n### ensureFile(file, callback) \n\nEnsures that the file exists. If the file that is requested to be created is in directories that do not exist, these directories are created. If the file already exists, it is **NOT MODIFIED**.\n\nAlias: `createFile()`\n\nSync: `createFileSync()`,`ensureFileSync()`\n\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\')\n\nvar file = \'/tmp/this/path/does/not/exist/file.txt\'\nfs.ensureFile(file, function(err) {\n  console.log(err); //null\n  //file has now been created, including the directory it is to be placed in\n})\n```\n\n\n### ensureDir(dir, callback) \n\nEnsures that the directory exists. If the directory structure does not exist, it is created.\n\nSync: `ensureDirSync()`\n\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\')\n\nvar dir = \'/tmp/this/path/does/not/exist\'\nfs.ensureDir(dir, function(err) {\n  console.log(err); //null\n  //dir has now been created, including the directory it is to be placed in\n})\n```\n\n\n\n### mkdirs(dir, callback) \n\nCreates a directory. If the parent hierarchy doesn\'t exist, it\'s created. Like `mkdir -p`.\n\nAlias: `mkdirp()`\n\nSync: `mkdirsSync()` / `mkdirpSync()`\n\n\nExamples:\n\n```javascript\nvar fs = require(\'fs-extra\');\n\nfs.mkdirs(\'/tmp/some/long/path/that/prob/doesnt/exist\', function(err){\n  if (err) return console.error(err);\n  console.log("success!")\n});\n\nfs.mkdirsSync(\'/tmp/another/path\');\n```\n\n\n### move(src, dest, callback)\n\nMoves a file or directory, even across devices.\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\');\n\nfs.move(\'/tmp/somefile\', \'/tmp/does/not/exist/yet/somefile\', function(err){\n  if (err) return console.error(err);\n  console.log("success!")\n});\n```\n\n\n### outputFile(file, data, callback)\n\nAlmost the same as `writeFile` (i.e. it [overwrites](http://pages.citebite.com/v2o5n8l2f5reb)), except that if the parent directory does not exist, it\'s created.\n\nSync: `outputFileSync()`\n\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\')\nvar file = \'/tmp/this/path/does/not/exist/file.txt\'\n\nfs.outputFile(file, \'hello!\', function(err) {\n  console.log(err); //null\n\n  fs.readFile(file, \'utf8\', function(err, data) {\n    console.log(data); //hello!\n  })\n})\n```\n\n\n\n### outputJson(file, data, callback)\n\nAlmost the same as `writeJson`, except that if the directory does not exist, it\'s created.\n\nAlias: `outputJSON()\n\nSync: `outputJsonSync()`, `outputJSONSync()`\n\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\')\nvar file = \'/tmp/this/path/does/not/exist/file.txt\'\n\nfs.outputJson(file, {name: \'JP\'}, function(err) {\n  console.log(err); //null\n\n  fs.readJson(file, function(err, data) {\n    console.log(data.name); //\'JP\n  })\n})\n```\n\n\n\n### readJson(file, [options], callback) \n\nReads a JSON file and then parses it into an object. `options` are the same that you\'d pass to `fs.readFile`.\n\nAlias: `readJSON()`\n\nSync: `readJsonSync()`, `readJSONSync()`\n\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\');\n\nfs.readJson(\'./package.json\', function(err, packageObj) {\n  console.log(packageObj.version); //0.1.3\n});\n```\n\n\n### remove(dir, callback)\n\nRemoves a file or directory. The directory can have contents. Like `rm -rf`.\n\nAlias: `delete()`\n\nSync: `removeSync()` / `deleteSync()`\n\n\nExamples:\n\n```javascript\nvar fs = require(\'fs-extra\');\n\nfs.remove(\'/tmp/myfile\', function(err){\n  if (err) return console.error(err);\n  \n  console.log("success!")\n});\n\nfs.removeSync(\'/home/jprichardson\'); //I just deleted my entire HOME directory. \n```\n\n\n\n### writeJson(file, object, [options], callback) \n\nWrites an object to a JSON file. `options` are the same that you\'d pass to `fs.readFile`.\n\nAlias: `writeJSON()`\n\nSync: `writeJsonSync()`, `writeJSONSync()`\n\nExample:\n\n```javascript\nvar fs = require(\'fs-extra\');\nfs.writeJson(\'./package.json\', {name: \'fs-extra\'}, function(err){\n  console.log(err);\n});\n```\n\n\n\nRoadmap\n--------\n\nThis contains items that I\'m considering doing. I\'d love community feedback.\n\n* File system walker. I really like this one: https://github.com/daaku/nodejs-walker ... this might be adding too much. Thoughts?\n* File/directory tree watcher. There are quite a few. ... this also might be adding too much. I like this one: https://github.com/paulmillr/chokidar, thoughts?\n* Thinking about moving `rimraf`, `ncp`, and `mkdirps` code into this library. I\'d like fs-extra to be a stable library that module authors\ncan depend upon. A bunch of other dependencies kinda sucks for modules/libraries. (I\'m leaning against this now.)\n* Change documentation to use the `fse` prefix instead of `fs`. This may encourage people to start using `fse` as a prefix and hence make their code clearer that they\'re not using the native `fs`. I\'m very undecided on this one since `fs-extra` is a drop in replacement for the native `fs`. (I\'m leaning against this now.)\n\n\n\nNaming\n------\n\nI put a lot of thought into the naming of these functions. Inspired by @coolaj86\'s request. So he deserves much of the credit for raising the issue. See discussion(s) here:\n\n* https://github.com/jprichardson/node-fs-extra/issues/2\n* https://github.com/flatiron/utile/issues/11\n* https://github.com/ryanmcgrath/wrench-js/issues/29\n* https://github.com/substack/node-mkdirp/issues/17\n\nFirst, I believe that in as many cases as possible, the [Node.js naming schemes](http://nodejs.org/api/fs.html) should be chosen. However, there are problems with the Node.js own naming schemes.\n\nFor example, `fs.readFile()` and `fs.readdir()`: the **F** is capitalized in *File* and the **d** is not capitalized in *dir*. Perhaps a bit pedantic, but they should still be consistent. Also, Node.js has chosen a lot of POSIX naming schemes, which I believe is great. See: `fs.mkdir()`, `fs.rmdir()`, `fs.chown()`, etc.\n\nWe have a dilemma though. How do you consistently name methods that perform the following POSIX commands: `cp`, `cp -r`, `mkdir -p`, and `rm -rf`?\n\nMy perspective: when in doubt, err on the side of simplicity. A directory is just a hierarchical grouping of directories and files. Consider that for a moment. So when you want to copy it or remove it, in most cases you\'ll want to copy or remove all of its contents. When you want to create a directory, if the directory that it\'s suppose to be contained in does not exist, then in most cases you\'ll want to create that too. \n\nSo, if you want to remove a file or a directory regardless of whether it has contents, just call `fs.remove(path)` or its alias `fs.delete(path)`. If you want to copy a file or a directory whether it has contents, just call `fs.copy(source, destination)`. If you want to create a directory regardless of whether its parent directories exist, just call `fs.mkdirs(path)` or `fs.mkdirp(path)`. \n\n\nCredit\n------\n\n`fs-extra` wouldn\'t be possible without using the modules from the following authors:\n\n- [Isaac Shlueter](https://github.com/isaacs)\n- [Charlie McConnel](https://github.com/avianflu)\n- [James Halliday](https://github.com/substack)\n- [Andrew Kelley](https://github.com/andrewrk)\n\n\nContributions\n-------------\n\nIf you want to contribute, please add a test. Also, don\'t change the version in `package.json`.\n\n\n### Contributors\n\n- [*] [JP Richardson](https://github.com/jprichardson)\n- [*] [Mike McNeil](https://github.com/mikermcneil)\n- [*] [Ian Crowther](https://github.com/iancrowther)\n- [*] [Stephen Mathieson](https://github.com/stephenmathieson)\n- [*] [Srirangan](https://github.com/Srirangan)\n- [*] [Uli Köhler](https://github.com/ulikoehler)\n- [1] [Jim Higson](https://github.com/jimhigson)\n- [1] [PatrickJS](https://github.com/gdi2290)\n- [1] [Michael Tiller](https://github.com/xogeny)\n- `<your name here>`\n\n\n\n\nLicense\n-------\n\n\nLicensed under MIT\n\nCopyright (c) 2011-2014 JP Richardson\n\n[1]: http://nodejs.org/docs/latest/api/fs.html \n\n\n[jsonfile]: https://github.com/jprichardson/node-jsonfile\n\n\n\n\n\n\n\n\n',
+51 silly resolved     readmeFilename: 'README.md',
+51 silly resolved     _id: 'fs-extra@0.9.1',
+51 silly resolved     _from: 'fs-extra@~0.9.1' } ]
+52 info install fs-extra@0.9.1 into /home/Vankaya/new
+53 info installOne fs-extra@0.9.1
+54 verbose from cache /root/.npm/fs-extra/0.9.1/package/package.json
+55 info /home/Vankaya/new/node_modules/fs-extra unbuild
+56 verbose read json /home/Vankaya/new/node_modules/fs-extra/package.json
+57 verbose tar unpack /root/.npm/fs-extra/0.9.1/package.tgz
+58 silly lockFile a45a4cf5-ankaya-new-node-modules-fs-extra /home/Vankaya/new/node_modules/fs-extra
+59 verbose lock /home/Vankaya/new/node_modules/fs-extra /root/.npm/a45a4cf5-ankaya-new-node-modules-fs-extra.lock
+60 silly lockFile b51ac4d1-t-npm-fs-extra-0-9-1-package-tgz /root/.npm/fs-extra/0.9.1/package.tgz
+61 verbose lock /root/.npm/fs-extra/0.9.1/package.tgz /root/.npm/b51ac4d1-t-npm-fs-extra-0-9-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm extractEntry CHANGELOG.md
+68 silly gunzTarPerm extractEntry lib/copy.js
+69 silly gunzTarPerm extractEntry lib/mkdir.js
+70 silly gunzTarPerm extractEntry lib/ensure.js
+71 silly gunzTarPerm extractEntry lib/move.js
+72 silly gunzTarPerm extractEntry lib/index.js
+73 silly gunzTarPerm extractEntry lib/remove.js
+74 silly gunzTarPerm extractEntry lib/json.js
+75 silly gunzTarPerm extractEntry lib/output.js
+76 silly gunzTarPerm extractEntry lib/create.js
+77 verbose read json /home/Vankaya/new/node_modules/fs-extra/package.json
+78 silly lockFile a45a4cf5-ankaya-new-node-modules-fs-extra /home/Vankaya/new/node_modules/fs-extra
+79 silly lockFile a45a4cf5-ankaya-new-node-modules-fs-extra /home/Vankaya/new/node_modules/fs-extra
+80 silly lockFile b51ac4d1-t-npm-fs-extra-0-9-1-package-tgz /root/.npm/fs-extra/0.9.1/package.tgz
+81 silly lockFile b51ac4d1-t-npm-fs-extra-0-9-1-package-tgz /root/.npm/fs-extra/0.9.1/package.tgz
+82 info preinstall fs-extra@0.9.1
+83 verbose from cache /home/Vankaya/new/node_modules/fs-extra/package.json
+84 verbose readDependencies using package.json deps
+85 verbose from cache /home/Vankaya/new/node_modules/fs-extra/package.json
+86 verbose readDependencies using package.json deps
+87 verbose cache add [ 'ncp@^0.5.1', null ]
+88 verbose cache add name=undefined spec="ncp@^0.5.1" args=["ncp@^0.5.1",null]
+89 verbose parsed url { pathname: 'ncp@^0.5.1',
+89 verbose parsed url   path: 'ncp@^0.5.1',
+89 verbose parsed url   href: 'ncp@^0.5.1' }
+90 verbose cache add name="ncp" spec="^0.5.1" args=["ncp","^0.5.1"]
+91 verbose parsed url { pathname: '^0.5.1', path: '^0.5.1', href: '^0.5.1' }
+92 verbose addNamed [ 'ncp', '^0.5.1' ]
+93 verbose addNamed [ null, null ]
+94 silly lockFile 50515df2-ncp-0-5-1 ncp@^0.5.1
+95 verbose lock ncp@^0.5.1 /root/.npm/50515df2-ncp-0-5-1.lock
+96 verbose cache add [ 'mkdirp@^0.5.0', null ]
+97 verbose cache add name=undefined spec="mkdirp@^0.5.0" args=["mkdirp@^0.5.0",null]
+98 verbose parsed url { pathname: 'mkdirp@^0.5.0',
+98 verbose parsed url   path: 'mkdirp@^0.5.0',
+98 verbose parsed url   href: 'mkdirp@^0.5.0' }
+99 verbose cache add name="mkdirp" spec="^0.5.0" args=["mkdirp","^0.5.0"]
+100 verbose parsed url { pathname: '^0.5.0', path: '^0.5.0', href: '^0.5.0' }
+101 verbose addNamed [ 'mkdirp', '^0.5.0' ]
+102 verbose addNamed [ null, null ]
+103 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+104 verbose lock mkdirp@^0.5.0 /root/.npm/0879e7d7-mkdirp-0-5-0.lock
+105 info addNameTag [ 'ncp', '^0.5.1' ]
+106 info addNameTag [ 'mkdirp', '^0.5.0' ]
+107 verbose cache add [ 'jsonfile@~1.1.0', null ]
+108 verbose cache add name=undefined spec="jsonfile@~1.1.0" args=["jsonfile@~1.1.0",null]
+109 verbose parsed url { pathname: 'jsonfile@~1.1.0',
+109 verbose parsed url   path: 'jsonfile@~1.1.0',
+109 verbose parsed url   href: 'jsonfile@~1.1.0' }
+110 verbose cache add name="jsonfile" spec="~1.1.0" args=["jsonfile","~1.1.0"]
+111 verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+112 verbose addNamed [ 'jsonfile', '~1.1.0' ]
+113 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+114 silly lockFile a43eb6bd-jsonfile-1-1-0 jsonfile@~1.1.0
+115 verbose lock jsonfile@~1.1.0 /root/.npm/a43eb6bd-jsonfile-1-1-0.lock
+116 verbose cache add [ 'rimraf@^2.2.8', null ]
+117 verbose cache add name=undefined spec="rimraf@^2.2.8" args=["rimraf@^2.2.8",null]
+118 verbose parsed url { pathname: 'rimraf@^2.2.8',
+118 verbose parsed url   path: 'rimraf@^2.2.8',
+118 verbose parsed url   href: 'rimraf@^2.2.8' }
+119 verbose cache add name="rimraf" spec="^2.2.8" args=["rimraf","^2.2.8"]
+120 verbose parsed url { pathname: '^2.2.8', path: '^2.2.8', href: '^2.2.8' }
+121 verbose addNamed [ 'rimraf', '^2.2.8' ]
+122 verbose addNamed [ null, null ]
+123 silly lockFile e7d3f915-rimraf-2-2-8 rimraf@^2.2.8
+124 verbose lock rimraf@^2.2.8 /root/.npm/e7d3f915-rimraf-2-2-8.lock
+125 silly addNameRange { name: 'jsonfile', range: '>=1.1.0- <1.2.0-', hasData: false }
+126 info addNameTag [ 'rimraf', '^2.2.8' ]
+127 verbose url raw ncp
+128 verbose url resolving [ 'https://registry.npmjs.org/', './ncp' ]
+129 verbose url resolved https://registry.npmjs.org/ncp
+130 info trying registry request attempt 1 at 06:51:04
+131 verbose etag "ACGAGO3CUQ9KWAQRIHYV5JUEN"
+132 http GET https://registry.npmjs.org/ncp
+133 verbose url raw mkdirp
+134 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+135 verbose url resolved https://registry.npmjs.org/mkdirp
+136 info trying registry request attempt 1 at 06:51:04
+137 verbose etag "ZX76IOCGNQ0Y4AWM9E9SZVM7"
+138 http GET https://registry.npmjs.org/mkdirp
+139 verbose url raw jsonfile
+140 verbose url resolving [ 'https://registry.npmjs.org/', './jsonfile' ]
+141 verbose url resolved https://registry.npmjs.org/jsonfile
+142 info trying registry request attempt 1 at 06:51:04
+143 verbose etag "EB30TOW2NIJ5P7ZS0TLWNPCN9"
+144 http GET https://registry.npmjs.org/jsonfile
+145 verbose url raw rimraf
+146 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+147 verbose url resolved https://registry.npmjs.org/rimraf
+148 info trying registry request attempt 1 at 06:51:04
+149 verbose etag "1STEDQ3FCRDH7RYNOV8FGGQ3J"
+150 http GET https://registry.npmjs.org/rimraf
+151 http 304 https://registry.npmjs.org/rimraf
+152 silly registry.get cb [ 304,
+152 silly registry.get   { date: 'Tue, 27 May 2014 06:50:10 GMT',
+152 silly registry.get     server: 'Apache',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     'last-modified': 'Tue, 27 May 2014 06:50:10 GMT',
+152 silly registry.get     'cache-control': 'max-age=1',
+152 silly registry.get     etag: '"1STEDQ3FCRDH7RYNOV8FGGQ3J"',
+152 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+152 silly registry.get     'x-cache': 'HIT',
+152 silly registry.get     'x-cache-hits': '1',
+152 silly registry.get     'x-timer': 'S1401173410.631547,VS0,VE244',
+152 silly registry.get     vary: 'Accept',
+152 silly registry.get     'content-length': '0',
+152 silly registry.get     'keep-alive': 'timeout=10, max=50',
+152 silly registry.get     connection: 'Keep-Alive' } ]
+153 verbose etag rimraf from cache
+154 silly lockFile e7d3f915-rimraf-2-2-8 rimraf@^2.2.8
+155 silly lockFile e7d3f915-rimraf-2-2-8 rimraf@^2.2.8
+156 verbose about to build /home/Vankaya/new/node_modules/fs-extra
+157 info /home/Vankaya/new/node_modules/fs-extra unbuild
+158 verbose from cache /home/Vankaya/new/node_modules/fs-extra/package.json
+159 info preuninstall fs-extra@0.9.1
+160 http 304 https://registry.npmjs.org/mkdirp
+161 silly registry.get cb [ 304,
+161 silly registry.get   { date: 'Tue, 27 May 2014 06:50:10 GMT',
+161 silly registry.get     server: 'Apache',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     'last-modified': 'Tue, 27 May 2014 06:50:10 GMT',
+161 silly registry.get     'cache-control': 'max-age=1',
+161 silly registry.get     etag: '"ZX76IOCGNQ0Y4AWM9E9SZVM7"',
+161 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+161 silly registry.get     'x-cache': 'HIT',
+161 silly registry.get     'x-cache-hits': '1',
+161 silly registry.get     'x-timer': 'S1401173410.638123,VS0,VE247',
+161 silly registry.get     vary: 'Accept',
+161 silly registry.get     'content-length': '0',
+161 silly registry.get     'keep-alive': 'timeout=10, max=50',
+161 silly registry.get     connection: 'Keep-Alive' } ]
+162 verbose etag mkdirp from cache
+163 info uninstall fs-extra@0.9.1
+164 verbose true,/home/Vankaya/new/node_modules,/home/Vankaya/new/node_modules unbuild fs-extra@0.9.1
+165 info postuninstall fs-extra@0.9.1
+166 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+167 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+168 http 304 https://registry.npmjs.org/ncp
+169 silly registry.get cb [ 304,
+169 silly registry.get   { date: 'Tue, 27 May 2014 06:50:10 GMT',
+169 silly registry.get     server: 'Apache',
+169 silly registry.get     via: '1.1 varnish',
+169 silly registry.get     'last-modified': 'Tue, 27 May 2014 06:50:10 GMT',
+169 silly registry.get     'cache-control': 'max-age=1',
+169 silly registry.get     etag: '"ACGAGO3CUQ9KWAQRIHYV5JUEN"',
+169 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+169 silly registry.get     'x-cache': 'HIT',
+169 silly registry.get     'x-cache-hits': '1',
+169 silly registry.get     'x-timer': 'S1401173410.636117,VS0,VE257',
+169 silly registry.get     vary: 'Accept',
+169 silly registry.get     'content-length': '0',
+169 silly registry.get     'keep-alive': 'timeout=10, max=50',
+169 silly registry.get     connection: 'Keep-Alive' } ]
+170 verbose etag ncp from cache
+171 silly lockFile 50515df2-ncp-0-5-1 ncp@^0.5.1
+172 silly lockFile 50515df2-ncp-0-5-1 ncp@^0.5.1
+173 error Error: No compatible version found: rimraf@'^2.2.8'
+173 error Valid install targets:
+173 error ["1.0.0","1.0.1","1.0.2","1.0.4","1.0.5","1.0.6","1.0.7","1.0.8","1.0.9","2.0.0","2.0.1","2.0.2","2.0.3","2.1.0","2.1.1","2.1.2","2.1.3","2.1.4","2.2.0","2.2.1","2.2.2","2.2.3","2.2.4","2.2.5","2.2.6","2.2.8"]
+173 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:679:10)
+173 error     at /usr/local/lib/node_modules/npm/lib/cache.js:594:10
+173 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+173 error     at Object.oncomplete (fs.js:297:15)
+174 error If you need help, you may report this log at:
+174 error     <http://github.com/isaacs/npm/issues>
+174 error or email it to:
+174 error     <npm-@googlegroups.com>
+175 error System Linux 2.6.32-279.14.1.el6.openlogic.x86_64
+176 error command "/usr/bin/node" "/usr/bin/npm" "install" "fs-extra"
+177 error cwd /home/Vankaya/new
+178 error node -v v0.8.20
+179 error npm -v 1.2.11
+180 verbose exit [ 1, true ]
